@@ -1,0 +1,19 @@
+{
+  "name": "wikiwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eventsource": "^3.0.5",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "wikimedia-streams": "^3.0.0"
+  }
+}
